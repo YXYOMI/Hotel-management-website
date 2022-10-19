@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SunnyIsle-Signin</title>
+    <style type="text/css">
+    	body {background-image: url(Background.jpg);
+    	      background-size: cover;}
+    	.title { text-align: center; 
+             color: white;
+             font-size: 40px;
+             font-family: STHeiti;
+    	}
+        .table {color:white;
+        	     text-align: left;
+        	     font-family: STHeiti;
+                 font-size: 22px;
+                 
+        }
+        .lableStyle{
+            background:none;
+            border-color:white; 
+            height: 20px; 
+            width: 170px
+        }
+        .div1{
+            width: 550px;
+            margin:0 auto;
+            margin-top: 120px;
+        }
+        .submitButton {
+            background: none; 
+            font-size: 17px; 
+            width: 80px;height: 45px;
+            font-family: STHeiti;
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+    <body>
+    <div class = "div1">
+    <fieldset style= "border-style: double; border-color: white;">
+    <legend class = "title">Register</legend></br>
+    <form action = "regCheck.php" method = "post">
+    <center><table>
+        <tr>
+        <td class = "table">Username</td>
+        <td><input type = "text" name = "username" class = "lableStyle"/> </td>
+        </tr> <tr></tr>
+        <tr>
+        <td class = "table">Password</td>
+        <td><input type = "password" name = "pwd" class = "lableStyle"/> </td>
+        </tr> <tr></tr>
+        <tr>   
+        <td class = "table">Password confirm&nbsp&nbsp&nbsp</td>
+        <td><input type = "password" name = "pwdChe" class = "lableStyle"/> </td>
+        </tr> <tr></tr>  
+        <tr>
+        <td class = "table">Real name</td>
+        <td><input type = "rext" name = "rName" class = "lableStyle"/> </td>
+        </tr> <tr></tr>
+        <tr>
+        <td class = "table">Passport ID</td>
+        <td><input type = "text" name = "passportID" class = "lableStyle"/> </td>
+        </tr> <tr></tr> 
+        <tr>
+        <td class = "table">Phone number</td>
+        <td><input type = "text" name = "phoneNum" class = "lableStyle"/> </td>
+        </tr> <tr></tr>
+        <tr>
+        <td class = "table">Email</td>
+        <td><input type = "text" name = "emailAdd" class = "lableStyle"/> </td>
+        </tr> 
+        </table></center></br></br>
+        <center><input type = "submit" value = "SUBMIT" id = "btn" name = "submit" class ="submitButton"/></center>
+    </form>
+    </fieldset>
+    </div>
+
+
+</body>
+</html>
